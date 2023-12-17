@@ -19,7 +19,9 @@
 
 Recently, Positive-pair-Only Contrastive Learning (POCL) has achieved reliable performance without the need to construct positive-negative training sets. The POCL method typically uses a single objective function to extract the distortion invariant representation (DIR) which describes the proximity of positive-pair representations affected by different distortions. This objective function implicitly enables the model to filter out or ignore the distortion variant representation (DVR) affected by different distortions. However, some recent studies have shown that proper use of DVR in contrastive can optimize the performance of models in some downstream domain-specific tasks. In addition, these POCL methods have been observed to be sensitive to augmentation strategies. To address these limitations, we propose a novel POCL framework named Distortion-Disentangled Contrastive Learning (DDCL) and a Distortion-Disentangled Loss (DDL). Our approach is the first to explicitly and adaptively disentangle and exploit the DVR inside the model and feature stream to improve the representation utilization efficiency, robustness and representation ability. Experiments demonstrate our framework’s superiority to Barlow Twins and Simsiam in terms of convergence, representation quality (including transferability and generalization), and robustness on several datasets.
 
-<img src="Figures/DDCL_1_2.png" alt="DDCL" style="zoom: 30%;" /><img src="Figures/DDCL_2_2.png" alt="DDCL" style="zoom: 35%;" /> 
+<p align="center">
+  <img src="Figures/DDCL_1_2.png" alt="DDCL" width="400" /><img src="Figures/DDCL_2_2.png" alt="DDCL" width="400" /> 
+</p>
 
 ## Experiments
 
