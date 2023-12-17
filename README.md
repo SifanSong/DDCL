@@ -11,7 +11,7 @@
 
 - Our code will be released in the very near future.
 - 17/Dec/2023: The code repository is publicly available.
-- 29/Nov/2023: Our paper "Distortion-Disentangled Contrastive Learning (DDCL)" was accepted to **WACV2024 (847/2042)** as an **ORAL (53/2042≈2.6%)** paper!
+- 29/Nov/2023: Our paper "Distortion-Disentangled Contrastive Learning (DDCL)" was accepted to **WACV2024 (847/2042)** as an **ORAL (53/2042)** paper!
 
 ## Abstract
 
