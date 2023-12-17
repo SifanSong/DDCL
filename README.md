@@ -1,3 +1,5 @@
+# Distortion-Disentangled Contrastive Learning (DDCL)
+
 [![Static Badge](https://img.shields.io/badge/WACV-2024-blue)](https://wacv2024.thecvf.com/)
 [![Static Badge](https://img.shields.io/badge/DDCL-ArXiv-b31b1b)](https://arxiv.org/abs/2303.05066)
 [![Static Badge](https://img.shields.io/badge/DDCL-PDF-pink)](https://arxiv.org/pdf/2303.05066.pdf)
@@ -5,18 +7,40 @@
 [![Static Badge](https://img.shields.io/badge/PyTorch-1.13.0-orange)]()
 [![Static Badge](https://img.shields.io/badge/cudatoolkit-11.3.1-1f5e96)]()
 
-# Distortion-Disentangled Contrastive Learning (DDCL)
 
-# News
-- Our codes will be released in the very near future.
+
+## Updates
+
+- Our code will be released in the very near future.
 - 17/Dec/2023: The code repository is publicly available.
-- 29/Nov/2023: Our paper "Distortion-Disentangled Contrastive Learning (DDCL)" was accepted to WACV 2024 as an ORAL paper!
+- 29/Nov/2023: Our paper "Distortion-Disentangled Contrastive Learning (DDCL)" was accepted to **WACV 2024** as an **ORAL** paper!
 
-# Experiments
+## Abstract
 
-# Visualization
+Recently, Positive-pair-Only Contrastive Learning (POCL) has achieved reliable performance without the need to construct positive-negative training sets. The POCL method typically uses a single objective function to extract the distortion invariant representation (DIR) which describes the proximity of positive-pair representations affected by different distortions. This objective function implicitly enables the model to filter out or ignore the distortion variant representation (DVR) affected by different distortions. However, some recent studies have shown that proper use of DVR in contrastive can optimize the performance of models in some downstream domain-specific tasks. In addition, these POCL methods have been observed to be sensitive to augmentation strategies. To address these limitations, we propose a novel POCL framework named Distortion-Disentangled Contrastive Learning (DDCL) and a Distortion-Disentangled Loss (DDL). Our approach is the first to explicitly and adaptively disentangle and exploit the DVR inside the model and feature stream to improve the representation utilization efficiency, robustness and representation ability. Experiments demonstrate our framework’s superiority to Barlow Twins and Simsiam in terms of convergence, representation quality (including transferability and generalization), and robustness on several datasets.
+
+<img src="Figures/DDCL_1_2.png" alt="DDCL" style="zoom: 30%;" /><img src="Figures/DDCL_2_2.png" alt="DDCL" style="zoom: 35%;" /> 
+
+## Experiments
+
+<img src="Figures/DDCL_3.png" alt="DDCL" style="zoom: 37%;" /> <img src="Figures/DDCL_4.png" alt="DDCL" style="zoom: 37%;" />
+
+## Visualization
+
+<img src="Figures/DDCL_5.png" alt="DDCL" style="zoom: 80%;" />
 
 # Citation
 
+If you find our DDCL useful in your research, please star this repository and consider citing:
+```
+@article{wang2023distortion,
+  title={Distortion-Disentangled Contrastive Learning},
+  author={Wang, Jinfeng and Song, Sifan and Su, Jionglong and Zhou, S Kevin},
+  journal={arXiv preprint arXiv:2303.05066},
+  year={2023}
+}
+```
+
 # Acknowledgments
 
+- Thanks Simsiam ([official](https://github.com/facebookresearch/simsiam), [small datasets](https://github.com/Reza-Safdari/SimSiam-91.9-top1-acc-on-CIFAR10)) and Barlow Twins ([official](https://github.com/facebookresearch/barlowtwins?tab=readme-ov-file), [small datasets](https://github.com/IgorSusmelj/barlowtwins)) for their public code and released models. 
