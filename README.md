@@ -38,11 +38,12 @@ Recently, Positive-pair-Only Contrastive Learning (POCL) has achieved reliable p
 
 If you find our DDCL useful in your research, please star this repository and consider citing:
 ```
-@article{wang2023distortion,
+@inproceedings{wang2024distortion,
   title={Distortion-Disentangled Contrastive Learning},
   author={Wang, Jinfeng and Song, Sifan and Su, Jionglong and Zhou, S Kevin},
-  journal={arXiv preprint arXiv:2303.05066},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={75--85},
+  year={2024}
 }
 ```
 
