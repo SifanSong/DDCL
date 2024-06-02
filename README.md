@@ -7,9 +7,10 @@
 [![Static Badge](https://img.shields.io/badge/PyTorch-1.13.0-orange)]()
 [![Static Badge](https://img.shields.io/badge/cudatoolkit-11.3.1-1f5e96)]()
 
+Pytorch implementation of **[DDCL (Distortion-Disentangled Contrastive Learning)](https://openaccess.thecvf.com/content/WACV2024/papers/Wang_Distortion-Disentangled_Contrastive_Learning_WACV_2024_paper.pdf)**.
+
 ## Updates
 
-- Our code will be released in the very near future.
 - 17/Dec/2023: The code repository is publicly available.
 - 29/Nov/2023: Our paper "Distortion-Disentangled Contrastive Learning (DDCL)" was accepted to **WACV2024 (847/2042)** as an **ORAL (53/2042)** paper!
 
@@ -23,6 +24,16 @@ Recently, Positive-pair-Only Contrastive Learning (POCL) has achieved reliable p
 <p align="center">
   <img src="Figures/DDCL_2.png" alt="DDCL2" />
 </p>
+## Getting Started
+
+### Installation
+
+If you only intend to run simsiam or DDCL with ResNet50, you can simply install the environment using
+
+```bash
+conda env create -f DDCL.yml
+conda install DDCL
+```
 
 ## Experiments
 
