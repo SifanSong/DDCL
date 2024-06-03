@@ -50,7 +50,7 @@ conda install DDCL
 
 ### Self-supervised Pre-training
 
-Please follow the configurations and pre-training code provided in `run_train.sh` to conduct experiments on SimSiam, DDCL, and CLeVER_DDCL (*i.e.,* the stable version of DDCL with a novelly designed regularization loss (*L<sub>PReg</sub>*) to prevent collapse).
+Please follow the configurations and pre-training code provided in `run_train.sh` to conduct experiments on SimSiam, DDCL, and CLeVER_DDCL (*i.e.,* a stable version of DDCL with a novelly proposed regularization loss (*L<sub>PReg</sub>*) to prevent collapse in the new paper, [CLeVER](https://github.com/SifanSong/CLeVER)).
 
 ### Linear Classification
 
