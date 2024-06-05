@@ -23,7 +23,7 @@ If you find our DDCL useful in your research, please star this repository and co
 
 ## Updates
 
-- 30/May/2024: We release a new study which is able to make DDCL much more stable! We rethink the role of invariant and equivariant representations, and extend our idea to improve the efficacy of contrastive learning based on DINO framework. In this case, we have added support for various **mainstream backbone models (ResNet, ViT and VMamba)**. For more detailed information, please refer to **CLeVER (Contrastive Learning Via Equivariant Representation) ([Arxiv](https://arxiv.org/pdf/2406.00262), [Github](https://github.com/SifanSong/CLeVER))**
+- 30/May/2024: We release a new study which is able to make DDCL much more stable! We rethink the role of invariant and equivariant representations, and extend our idea to improve the efficacy of contrastive learning based on DINO framework. In this case, we have added support for various **mainstream backbone models (ResNet, ViT and VMamba)**. For more detailed information, please refer to **[CLeVER (Contrastive Learning Via Equivariant Representation)](https://github.com/SifanSong/CLeVER)**
 - 17/Dec/2023: The code repository is publicly available.
 - 29/Nov/2023: Our paper "Distortion-Disentangled Contrastive Learning (DDCL)" was accepted to **WACV2024 (847/2042)** as an **ORAL (53/2042)** paper!
 
