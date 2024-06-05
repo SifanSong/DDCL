@@ -21,7 +21,7 @@ Pytorch implementation of **[DDCL (Distortion-Disentangled Contrastive Learning)
 
 ## Updates
 
-- 30/May/2024: We release a new paper which is able to make DDCL much more stable! We rethink the role of invariant and equivariant representations, and extend our idea to improve the efficacy of contrastive learning based on DINO framework. In this case, we have added support for various **mainstream backbone models (ResNet, ViT and VMamba)**. For more detailed information, please refer to **CLeVER (Contrastive Learning Via Equivariant Representation) ([Arxiv](https://arxiv.org/pdf/2406.00262), [Github](https://github.com/SifanSong/CLeVER))**
+- 30/May/2024: We release a new study which is able to make DDCL much more stable! We rethink the role of invariant and equivariant representations, and extend our idea to improve the efficacy of contrastive learning based on DINO framework. In this case, we have added support for various **mainstream backbone models (ResNet, ViT and VMamba)**. For more detailed information, please refer to **CLeVER (Contrastive Learning Via Equivariant Representation) ([Arxiv](https://arxiv.org/pdf/2406.00262), [Github](https://github.com/SifanSong/CLeVER))**
 - 17/Dec/2023: The code repository is publicly available.
 - 29/Nov/2023: Our paper "Distortion-Disentangled Contrastive Learning (DDCL)" was accepted to **WACV2024 (847/2042)** as an **ORAL (53/2042)** paper!
 
@@ -54,15 +54,15 @@ Please follow the configurations and pre-training code provided in `run_train.sh
 
 ### Linear Classification
 
-Please follow the configurations and linear classification code in `run_train.sh`.
+Please follow the configurations and linear classification codes in `run_train.sh`.
 
 ### Performance Evaluation with perturbed input images
 
-Please follow the configurations and evaluation code in `run_eval.sh`.
+Please follow the configurations and evaluation codes in `run_eval.sh`.
 
 ### Downstream Classification Task
 
-🚀
+Please follow the configurations and codes in `run_downstream.sh`.
 
 ## Experiments
 
@@ -87,7 +87,7 @@ For Linear Evaluation (ResNet50) of Simsiam, DDCL, DDCL *w/ L<sub>PReg</sub>* on
 
 ## Visualization
 
-Please follow the configurations and evaluation code in `run_vis.sh`.
+Please follow the configurations and codes in `run_vis.sh`.
 
 <img src="Figures/DDCL_5.png" alt="DDCL" style="zoom: 80%;" />
 
