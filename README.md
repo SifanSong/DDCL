@@ -9,6 +9,8 @@
 
 Pytorch implementation of **[DDCL (Distortion-Disentangled Contrastive Learning)](https://openaccess.thecvf.com/content/WACV2024/papers/Wang_Distortion-Disentangled_Contrastive_Learning_WACV_2024_paper.pdf)**.
 
+If you find our DDCL useful in your research, please star this repository and consider citing:
+
 ```
 @inproceedings{wang2024distortion,
   title={Distortion-Disentangled Contrastive Learning},
