@@ -41,7 +41,7 @@ Recently, Positive-pair-Only Contrastive Learning (POCL) has achieved reliable p
 
 ### Installation
 
-If you only intend to run simsiam or DDCL with ResNet50, you can simply install the environment using
+If you intend to run simsiam / DDCL / CLeVER_DDCL with ResNet50, you can simply install the environment using
 
 ```bash
 conda env create -f DDCL.yml
@@ -50,7 +50,7 @@ conda install DDCL
 
 ### Self-supervised Pre-training
 
-Please follow the configurations and pre-training code provided in `run_train.sh` to conduct experiments on SimSiam, DDCL, and CLeVER_DDCL (*i.e.,* a stable version of DDCL with a novelly proposed regularization loss (*L<sub>PReg</sub>*) to prevent collapse in the new paper, [CLeVER](https://github.com/SifanSong/CLeVER)).
+Please follow the configurations and pre-training code provided in `run_train.sh` to conduct experiments on SimSiam, DDCL, and CLeVER_DDCL (*i.e.,* a stable version of DDCL with a novelly proposed regularization loss (*L<sub>PReg</sub>*) to prevent collapse in the new study, [CLeVER](https://github.com/SifanSong/CLeVER)).
 
 ### Linear Classification
 
