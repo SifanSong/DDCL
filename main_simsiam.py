@@ -486,11 +486,10 @@ def train(train_loader, model, criterion, L1, optimizer, epoch, args):
             loss_aug = L1(loss_aug, 0*loss_aug)
 
             if args.net == "CLeVER_DDCL":
-                if args.net == "CLeVER_DDCL":
-                    reg_projector_img = sum(p.pow(2.0).sum() for p in model.module.projector_img.parameters())
-                    reg_projector_aug = sum(p.pow(2.0).sum() for p in model.module.projector_aug.parameters())
-                    reg_predictor_img = sum(p.pow(2.0).sum() for p in model.module.predictor_img.parameters())
-                    reg_predictor_aug = sum(p.pow(2.0).sum() for p in model.module.predictor_aug.parameters())
+                reg_projector_img = sum(p.pow(2.0).sum() for p in model.module.projector_img.parameters())
+                reg_projector_aug = sum(p.pow(2.0).sum() for p in model.module.projector_aug.parameters())
+                reg_predictor_img = sum(p.pow(2.0).sum() for p in model.module.predictor_img.parameters())
+                reg_predictor_aug = sum(p.pow(2.0).sum() for p in model.module.predictor_aug.parameters())
 
                 loss_reg_projector = (reg_projector_img - reg_projector_aug)
                 loss_reg_predictor = (reg_predictor_img - reg_predictor_aug)
