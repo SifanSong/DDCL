@@ -478,7 +478,9 @@ def train(train_loader, model, criterion, L1, optimizer, epoch, args):
 
             loss1_img = - criterion(p1_img, z2_img).mean()
             loss2_img = - criterion(p2_img, z1_img).mean()
-
+            loss1_aug = criterion(p1_aug, z2_aug).mean()
+            loss2_aug = criterion(p2_aug, z1_aug).mean()
+            
             loss_img = 0.5 * loss1_img + 0.5 * loss2_img
             loss_aug = 0.5 * loss1_aug + 0.5 * loss2_aug
             loss_aug = L1(loss_aug, 0*loss_aug)
